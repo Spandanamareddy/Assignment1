@@ -17,3 +17,8 @@ Frontend: 1.JavaScript 2.CSS
 
 Open Terminal and run the following commands 1.npm install 2.npm init 3.npm install express 4.npm install nodemon --save-dev 5.npm run dev(open browser u will be connected to server with port localhost:3000 if you want to change port number we can)
 
+ERD diagram
+
+![sociamedia_ERD-1](https://user-images.githubusercontent.com/103222225/172267120-302e77db-603d-4872-8331-f2b5743cf145.jpg)
+
+
