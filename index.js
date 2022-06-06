@@ -6,7 +6,7 @@ const path = require('path');
 app.use(express.json()); //To parse JSON bodies (Applicable for Express 4.16+)
 
 app.use(express.static(__dirname + "/public"));
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/public/Landingpage.html')))
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/public/index.html')))
 
 //CORS middleware
 app.use(function(req, res, next) {
